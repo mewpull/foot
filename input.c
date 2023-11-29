@@ -198,6 +198,10 @@ execute_binding(struct seat *seat, struct terminal *term,
         term_font_size_reset(term);
         return true;
 
+    case BIND_ACTION_RESET_TERMINAL:
+        term_reset(term, true);
+        return true;
+
     case BIND_ACTION_SPAWN_TERMINAL:
         term_spawn_new(term);
         return true;

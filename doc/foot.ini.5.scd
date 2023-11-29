@@ -815,6 +815,9 @@ e.g. *search-start=none*.
 *font-reset*
 	Resets the font size to the default. Default: _Control+0 Control+KP\_0_.
 
+*reset-terminal*
+	Perform hard resets of the terminal. Default: _Control+Shift+l_.
+
 *spawn-terminal*
 	Spawns a new terminal. If the shell has been configured to emit
 	the OSC 7 escape sequence, the new terminal will start in the

@@ -51,6 +51,9 @@
 
 ## Unreleased
 ### Added
+
+* Default key binding for _reset-terminal_ (ctrl+shift+l).
+
 ### Changed
 
 * config: ARGB color values now default to opaque, rather than
